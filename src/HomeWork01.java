@@ -2,11 +2,11 @@ public class HomeWork01 {
     public static void main(String[] args) {
         Two();
         System.out.println("a * (b + (c / d)) = " + Three(4.5f,2.8f,3.2f,4.6f));
-        System.out.println(Four(5, 8));
-        Five(-7);
-        System.out.println(Six(-1));
-        Seven("учитель");
-        Eight(2016);
+        System.out.println(Four(6, 7));
+        Five(-2);
+        System.out.println(Six(-8));
+        Seven("коллега");
+        Eight(1990);
     }
 
     //2. Создать переменные всех пройденных типов данных и инициализировать их значения.
@@ -73,7 +73,7 @@ public class HomeWork01 {
         System.out.println("Привет, " + name + "!");
     }
 
-    //7 - 8. * Написать метод, который определяет является ли год високосным, и выводит сообщение
+    //8. * Написать метод, который определяет является ли год високосным, и выводит сообщение
     //в консоль. Каждый 4-й год является високосным, кроме каждого 100-го, при этом каждый 400-й
     //– високосный.
     static void Eight(int year) {
